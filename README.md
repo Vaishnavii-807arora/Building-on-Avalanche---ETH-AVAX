@@ -6,27 +6,21 @@ FancyToken is an Ethereum smart contract that implements a custom ERC-20 token w
 ### Functionality:
 
 1. **Token Creation and Minting:**
-
-   The contract creator deploys the contract and mints an initial supply of 1000 tokens with the symbol "FT" (FancyToken).
+The contract creator deploys the contract and mints an initial supply of 1000 tokens with the symbol "FT" (FancyToken).
 
 2. **Owner-Only Minting:**
-
 The contract owner can mint additional tokens and allocate them to any specified address.
 
 3. **Burning Tokens:**
-
 Token holders can burn a specified amount of their tokens, effectively reducing the token supply.
 
 4. **Token Transfer with Timelock:**
-
 Token holders can transfer their tokens to other addresses, but a time lock mechanism prevents immediate transfers after a specific time period (1 day).
 
    5. **Check Timelock:**
-   
-   Users can query the timestamp until which their tokens are locked for transfer.
+    Users can query the timestamp until which their tokens are locked for transfer.
 
    6.**Token Redemption (Commented Out):**
-   
    A token holder can redeem 100 tokens for a corresponding amount of Ether, as determined by the conversion rate set by the contract owner. This functionality is currently commented out and disabled.
 
 ## Getting Started
