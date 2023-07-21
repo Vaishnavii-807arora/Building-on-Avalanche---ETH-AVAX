@@ -5,16 +5,16 @@ FancyToken is an Ethereum smart contract that implements a custom ERC-20 token w
 
 ### Functionality:
 
-1. Token Creation and Minting:
+1.Token Creation and Minting:
 The contract creator deploys the contract and mints an initial supply of 1000 tokens with the symbol "FT" (FancyToken).
 
-3. Owner-Only Minting:
+2.Owner-Only Minting:
 The contract owner can mint additional tokens and allocate them to any specified address.
 
-4. Burning Tokens:
+3.Burning Tokens:
 Token holders can burn a specified amount of their tokens, effectively reducing the token supply.
 
-5. Token Transfer with Timelock:
+4.Token Transfer with Timelock:
 Token holders can transfer their tokens to other addresses, but a time lock mechanism prevents immediate transfers after a specific time period (1 day).
 
 5.Check Timelock:
@@ -26,6 +26,7 @@ A token holder can redeem 100 tokens for a corresponding amount of Ether, as det
 ## Getting Started
 
 1. Setting up Avalanche on MetaMask: Add the following configuration to set up RPC to FUJI Testnet:
+
       FUJI Testnet Settings:
       Network Name: Avalanche FUJI C-Chain
       New RPC URL: api.avax-test.network/ext/bc/C/rpc
@@ -33,11 +34,11 @@ A token holder can redeem 100 tokens for a corresponding amount of Ether, as det
       Symbol: AVAX
       Explorer: testnet.snowtrace.io
 
-2. Funding your C-Chain address: To send money from the X-Chain to your C-Chain address on the main net, copy and paste the C-Chain address into faucet.avax.network.
+3. Funding your C-Chain address: To send money from the X-Chain to your C-Chain address on the main net, copy and paste the C-Chain address into faucet.avax.network.
 
-3. Smart Contract Development and building of smart contract.
+4. Smart Contract Development and building of smart contract.
 
-4. Deployment and Interaction:
+5. Deployment and Interaction:
 
 * Deploy the contract on the Ethereum network using a compatible development environment.
 + Optionally, uncomment and set the conversion rate for token redemption.
