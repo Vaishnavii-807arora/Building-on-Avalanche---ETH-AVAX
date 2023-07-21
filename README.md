@@ -26,13 +26,12 @@ A token holder can redeem 100 tokens for a corresponding amount of Ether, as det
 ## Getting Started
 
 1. Setting up Avalanche on MetaMask: Add the following configuration to set up RPC to FUJI Testnet:
-   
-FUJI Testnet Settings:
-Network Name: Avalanche FUJI C-Chain
-New RPC URL: api.avax-test.network/ext/bc/C/rpc
-ChainID: 43113
-Symbol: AVAX
-Explorer: testnet.snowtrace.io
+      FUJI Testnet Settings:
+      Network Name: Avalanche FUJI C-Chain
+      New RPC URL: api.avax-test.network/ext/bc/C/rpc
+      ChainID: 43113
+      Symbol: AVAX
+      Explorer: testnet.snowtrace.io
 
 2. Funding your C-Chain address: To send money from the X-Chain to your C-Chain address on the main net, copy and paste the C-Chain address into faucet.avax.network.
 
