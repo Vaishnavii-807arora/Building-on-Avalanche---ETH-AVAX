@@ -7,7 +7,7 @@ FancyToken is an Ethereum smart contract that implements a custom ERC-20 token w
 
 1. **Token Creation and Minting:**
 
-The contract creator deploys the contract and mints an initial supply of 1000 tokens with the symbol "FT" (FancyToken).
+   The contract creator deploys the contract and mints an initial supply of 1000 tokens with the symbol "FT" (FancyToken).
 
 2. **Owner-Only Minting:**
 
