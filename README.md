@@ -17,11 +17,11 @@ Token holders can burn a specified amount of their tokens, effectively reducing 
 4.Token Transfer with Timelock:
 Token holders can transfer their tokens to other addresses, but a time lock mechanism prevents immediate transfers after a specific time period (1 day).
 
-5.Check Timelock:
-Users can query the timestamp until which their tokens are locked for transfer.
+   5.Check Timelock:
+   Users can query the timestamp until which their tokens are locked for transfer.
 
-6.Token Redemption (Commented Out):
-A token holder can redeem 100 tokens for a corresponding amount of Ether, as determined by the conversion rate set by the contract owner. This functionality is currently commented out and disabled.
+   6.Token Redemption (Commented Out):
+   A token holder can redeem 100 tokens for a corresponding amount of Ether, as determined by the conversion rate set by the contract owner. This functionality is currently commented out and disabled.
 
 ## Getting Started
 
