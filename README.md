@@ -20,7 +20,7 @@ Token holders can transfer their tokens to other addresses, but a time lock mech
 5. **Check Timelock:**
 Users can query the timestamp until which their tokens are locked for transfer.
 
-6.**Token Redemption (Commented Out):**
+6. **Token Redemption (Commented Out):**
 A token holder can redeem 100 tokens for a corresponding amount of Ether, as determined by the conversion rate set by the contract owner. This functionality is currently commented out and disabled.
 
 ## Getting Started
